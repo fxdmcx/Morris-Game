@@ -21,11 +21,11 @@ public:
     Board();
     Board(char board_position_values[]);
 
-    char getLocationValue(int index);				//get location index's value
-    void setLocationValue(int index, char val);		//set location index's value
-    vector<char> getBoardPosition();				//get board position values
-    int getPieceNum(char color);					//obtain number of white or black pieces
-    void swapColor();								//swap location value, replace 'W' with 'B', and 'B' with 'W'
+    char getLocationValue(int index);               //get location index's value
+    void setLocationValue(int index, char val);     //set location index's value
+    vector<char> getBoardPosition();                //get board position values
+    int getPieceNum(char color);                    //obtain number of white or black pieces
+    void swapColor();                               //swap location value, replace 'W' with 'B', and 'B' with 'W'
     string display();
 };
 
